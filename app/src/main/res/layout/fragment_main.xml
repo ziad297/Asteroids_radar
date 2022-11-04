@@ -23,6 +23,8 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
+                android:contentDescription="@{viewModel.pod.title}"
+                app:podSrc="@{viewModel.pod.url}"
                 android:id="@+id/image_of_the_day"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

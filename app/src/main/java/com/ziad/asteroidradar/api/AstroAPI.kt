@@ -21,7 +21,7 @@ interface ApiService {
         @Query("start_date") startDate: String,
         @Query("api_key") apiKey: String
     ): String
-    @GET("planetary/apod")
+    @GET("planetary/pod")
     suspend fun getPictureOfDay(
         @Query("api_key") apiKey: String
     ): POD

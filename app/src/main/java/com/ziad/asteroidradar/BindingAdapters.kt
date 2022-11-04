@@ -1,4 +1,4 @@
-package com.udacity.asteroidradar
+package com.ziad.asteroidradar
 
 import android.widget.ImageView
 import android.widget.TextView

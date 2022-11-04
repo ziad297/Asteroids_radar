@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.app.Application
 import android.os.Build
 import androidx.work.*
-import com.udacity.asteroidradar.DataWorker
+import com.ziad.asteroidradar.DataWorker
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -76,11 +76,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
     val Astro=dataRepo.astros
     val AstroToday=dataRepo.astrosToday
-    val POD=dataRepo.POD
+    val pod=dataRepo.POD
 
-    private fun cachePOD(POD: POD){
-        PODCache.putString("URL",POD.url)
-        PODCache.putString("Description",POD.title)
+    private fun cachePOD(pod: POD){
+        PODCache.putString("URL",pod.url)
+        PODCache.putString("Description",pod.title)
         PODCache.apply()
     }
 
